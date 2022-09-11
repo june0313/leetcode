@@ -25,4 +25,15 @@ public class SingleNumber {
 
         return set.stream().findFirst().orElse(nums[0]);
     }
+
+    // using bit manipulation
+    public int singleNumber2(int[] nums) {
+        int answer = 0;
+
+        for (int num : nums) {
+            answer ^= num;
+        }
+
+        return answer;
+    }
 }

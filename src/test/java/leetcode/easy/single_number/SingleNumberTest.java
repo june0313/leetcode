@@ -11,4 +11,9 @@ class SingleNumberTest {
     void test1() {
         assertThat(sut.singleNumber(new int[]{4, 1, 2, 1, 2})).isEqualTo(4);
     }
+
+    @Test
+    void test2() {
+        assertThat(sut.singleNumber2(new int[]{4, 1, 2, 1, 2})).isEqualTo(4);
+    }
 }
