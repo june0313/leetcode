@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45c14a2c-cbe2-4147-ab4c-ea4fd52f0560" name="Changes" comment="fix gradle plugin (groovy -&gt; java)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/palindrome_number/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/palindrome_number/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/palindrome_number/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/easy/palindrome_number/SolutionTest.java" afterDir="false" />
+    <list default="true" id="45c14a2c-cbe2-4147-ab4c-ea4fd52f0560" name="Changes" comment="palindrome number">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/single_number/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/easy/single_number/SingleNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -65,7 +63,30 @@
       <recent name="leetcode.easy.palindrome_number" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest.test3">
+  <component name="RunManager" selected="Gradle.SingleNumberTest.test1">
+    <configuration name="SingleNumberTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;leetcode.easy.single_number.SingleNumberTest.test1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SolutionTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -80,29 +101,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;leetcode.easy.palindrome_number.SolutionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;leetcode.easy.twosum.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SingleNumberTest.test1" />
         <item itemvalue="Gradle.SolutionTest.test3" />
         <item itemvalue="Gradle.SolutionTest.test2" />
         <item itemvalue="Gradle.SolutionTest (1)" />
         <item itemvalue="Gradle.SolutionTest.test (1)" />
-        <item itemvalue="Gradle.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +200,8 @@
       <workItem from="1658022500643" duration="4357000" />
       <workItem from="1658035320260" duration="123000" />
       <workItem from="1658234656785" duration="1763000" />
-      <workItem from="1660458718914" duration="2486000" />
+      <workItem from="1660458718914" duration="2535000" />
+      <workItem from="1662880777609" duration="1366000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658034298652</created>
@@ -218,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658035435636</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="palindrome number">
+      <created>1660567099739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660567099739</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +244,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="fix gradle plugin (groovy -&gt; java)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix gradle plugin (groovy -&gt; java)" />
+    <MESSAGE value="palindrome number" />
+    <option name="LAST_COMMIT_MESSAGE" value="palindrome number" />
   </component>
 </project>
